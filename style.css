@@ -271,6 +271,63 @@ body::before {
 }
 
 /* CONTACT */
+.contact-container {
+  max-width: 700px;
+  margin: auto;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  background: rgba(15, 23, 42, 0.7);
+  padding: 40px;
+  border-radius: 20px;
+
+  border: 1px solid rgba(255,255,255,0.06);
+
+  backdrop-filter: blur(12px);
+}
+
+.contact-form input,
+.contact-form textarea {
+
+  width: 100%;
+  padding: 15px;
+
+  border: 1px solid rgba(255,255,255,0.08);
+
+  background: rgba(2, 6, 23, 0.8);
+
+  color: white;
+
+  border-radius: 10px;
+
+  font-size: 16px;
+
+  outline: none;
+
+  transition: 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+
+  border-color: #38bdf8;
+
+  box-shadow: 0 0 15px rgba(56,189,248,0.2);
+
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form button {
+  border: none;
+  cursor: pointer;
+}
 .contact-card {
   text-align: center;
 }
